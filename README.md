@@ -10,7 +10,7 @@ Solr is a search engine server that uses lucene, and lucene is a search engine l
 ***
 
 #### Deployment:
-#### Precondition:
+##### Precondition:
 + Ubuntu 14.04 64bit<p>
 + JDK (Using u55 or later)<p>
   - [*Lastest Version Download Path*](http://www.oracle.com/technetwork/cn/java/javase/downloads/jdk8-downloads-2133151-zhs.html)<p>
@@ -57,9 +57,9 @@ Solr is a search engine server that uses lucene, and lucene is a search engine l
         Java(TM) SE Runtime Environment (build 1.8.0_73-b02)
         Java HotSpot(TM) 64-Bit Server VM (build 25.73-b02, mixed mode)
 
-    **Done**<p>
+    **Done!**<p>
     
-#### Install Solr:
+##### Install Solr:
 + Download<p>
 [*Download Path*](http://apache.opencas.org/lucene/solr/5.5.0/solr-5.5.0.tgz)
 + Untar<p>
@@ -70,4 +70,4 @@ Solr is a search engine server that uses lucene, and lucene is a search engine l
 `bin/solr start -e cloud -noprompt`<p>
 *PS: open browser with http://localhost:8983/solr/*<p>
 
-#### Use Solr:
+##### Use Solr:
