@@ -21,16 +21,38 @@ Solr is a search engine server that uses lucene, and lucene is a search engine l
     **Create /usr/lib/jvm folder**<p>
     `(sudo) mkdir -p /usr/lib/jvm`<p>
     
-    **Move jdk1.8.0_73 folder to /usr/lib/jvm folder**<p>
+    **Move jdk1.8.0_73 folder under /usr/lib/jvm folder**<p>
     `(sudo) mv jdk1.8.0_73/ /usr/lib/jvm/`<p>
 
     **Edit bashrc file**<p>
     `vim ~/.bashrc`<p>
-    
+
+        # add a few lines as follows to the end of the file. 
         export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_73
         export JRE_HOME=${JAVA_HOME}/jre
         export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
         export PATH=${JAVA_HOME}/bin:$PATH
 
-  
+    **Configure default JDK version**<p>
+    `(sudo) update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.8.0_73/bin/java 300`<p>
+    update-alternatives: using /usr/lib/jvm/jdk1.8.0_73/bin/java to provide /usr/bin/java (java) in auto mode<p>
+
+    `(sudo) update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk1.8.0_73/bin/javac 300`<p>
+    update-alternatives: using /usr/lib/jvm/jdk1.8.0_73/bin/javac to provide /usr/bin/javac (javac) in auto mode
+
+    `(sudo) update-alternatives --install /usr/bin/jar jar /usr/lib/jvm/jdk1.8.0_73/bin/jar 300`<p>
+    update-alternatives: using /usr/lib/jvm/jdk1.8.0_73/bin/jar to provide /usr/bin/jar (jar) in auto mode
+
+    `(sudo) update-alternatives --config java`<p>
+    There is only one alternative in link group java (providing /usr/bin/java): /usr/lib/jvm/jdk1.8.0_73/bin/java<p>
+    Nothing to configure.
+
+    **Check the version**<p>
+    `java -version`<p>
+    
+        java version "1.8.0_73"
+        Java(TM) SE Runtime Environment (build 1.8.0_73-b02)
+        Java HotSpot(TM) 64-Bit Server VM (build 25.73-b02, mixed mode)
+
+    **Done**<p>  
 #### :
