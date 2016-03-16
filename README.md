@@ -59,4 +59,13 @@ Solr is a search engine server that uses lucene, and lucene is a search engine l
 
     **Done**<p>
     
-#### :
+###### Install Solr:
++ Download<p>
+[*Download Path*](http://apache.opencas.org/lucene/solr/5.5.0/solr-5.5.0.tgz)
++ Untar<p>
+`tar -zxvf solr-5.5.0.tgz`<p>
++ Enter the folder<p>
+`cd solr-5.5.0`<p>
++ Run first hello world<p>
+`bin/solr start -e cloud -noprompt`<p>
+*PS: open browser with http://localhost:8983/solr/, enjoy!*<p>
