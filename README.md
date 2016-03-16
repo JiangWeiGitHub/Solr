@@ -1,5 +1,5 @@
 #### General introduction:
-Solr is a search engine server that uses lucene, and lucene is a search engine library.<p>
+  Solr is a search engine server that uses lucene, and lucene is a search engine library.<p>
 
 ***
 
@@ -11,9 +11,9 @@ Solr is a search engine server that uses lucene, and lucene is a search engine l
 
 #### Deployment:
 ###### Precondition:
-+ Ubuntu 14.04 64bit<p>
-+ JDK (Using u55 or later)<p>
-  - [*Lastest Version Download Path*](http://www.oracle.com/technetwork/cn/java/javase/downloads/jdk8-downloads-2133151-zhs.html)<p>
-  - Install JDK
+  + Ubuntu 14.04 64bit<p>
+  + JDK (Using u55 or later)<p>
+    - [*Lastest Version Download Path*](http://www.oracle.com/technetwork/cn/java/javase/downloads/jdk8-downloads-2133151-zhs.html)<p>
+    - Install JDK
   
 #### :
