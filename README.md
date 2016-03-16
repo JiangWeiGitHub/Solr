@@ -14,6 +14,8 @@ Solr is a search engine server that uses lucene, and lucene is a search engine l
 + Ubuntu 14.04 64bit<p>
 + JDK (Using u55 or later)<p>
   - [*Lastest Version Download Path*](http://www.oracle.com/technetwork/cn/java/javase/downloads/jdk8-downloads-2133151-zhs.html)<p>
+        *name: jdk-8u73-linux-x64.tar.gz*<p>
+        *md5: 1b0120970aa8bc182606a16bf848a686*<p>
   - Install JDK<p>
     **Untar**<p>
     `tar -zxvf jdk-8u73-linux-x64.tar.gz`<p>
