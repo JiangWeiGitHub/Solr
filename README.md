@@ -70,4 +70,4 @@ Solr is a search engine server that uses lucene, and lucene is a search engine l
 `bin/solr start -e cloud -noprompt`<p>
 *PS: open browser with http://localhost:8983/solr/*<p>
 
-##### Use Solr:
+##### Done!
