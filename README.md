@@ -43,6 +43,7 @@ Solr is a search engine server that uses lucene, and lucene is a search engine l
     `(sudo) update-alternatives --install /usr/bin/jar jar /usr/lib/jvm/jdk1.8.0_73/bin/jar 300`<p>
     update-alternatives: using /usr/lib/jvm/jdk1.8.0_73/bin/jar to provide /usr/bin/jar (jar) in auto mode
 
+    **Check system configuration for java**<p>
     `(sudo) update-alternatives --config java`<p>
     There is only one alternative in link group java (providing /usr/bin/java): /usr/lib/jvm/jdk1.8.0_73/bin/java<p>
     Nothing to configure.
@@ -54,5 +55,6 @@ Solr is a search engine server that uses lucene, and lucene is a search engine l
         Java(TM) SE Runtime Environment (build 1.8.0_73-b02)
         Java HotSpot(TM) 64-Bit Server VM (build 25.73-b02, mixed mode)
 
-    **Done**<p>  
+    **Done**<p>
+    
 #### :
