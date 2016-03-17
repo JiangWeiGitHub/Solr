@@ -6,6 +6,8 @@ Solr is a search engine server that uses lucene, and lucene is a search engine l
 #### Related reference:
 [*Lucene & Solr*](https://github.com/apache/lucene-solr)<p>
 [*Solr Quick Start*](http://lucene.apache.org/solr/quickstart.html)<p>
+[*The Standard Query Parser*](https://cwiki.apache.org/confluence/display/solr/The+Standard+Query+Parser#TheStandardQueryParser-SpecifyingTermsfortheStandardQueryParser)<p>
+[*Common Query Parameters*](https://cwiki.apache.org/confluence/display/solr/Common+Query+Parameters)
   
 ***
 
