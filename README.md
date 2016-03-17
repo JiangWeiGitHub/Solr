@@ -71,14 +71,16 @@ Solr is a search engine server that uses lucene, and lucene is a search engine l
 + Run first hello world<p>
 `bin/solr start -e cloud -noprompt`<p>
 *PS: open browser with http://localhost:8983/solr/*<p>
-*And also you can use curl, just like:*<p>
+
++ Use curl
+*You can use curl, just like:*<p>
 
         # Cleanup first
         bin/solr stop -all ; rm -Rf example/cloud/
         bin/solr start -e cloud -noprompt
         bin/post -c gettingstarted example/exampledocs/*.xml
         curl http://localhost:8983/solr/gettingstarted/select?q=id:SP2514N
-      
+
 *Then you can get xml response from sorl which contains a Samsung harddisk infor for id = SP2514N*<p>
 `<response><lst name="responseHeader"><int name="status">0</int><int name="QTime">43</int><lst name="params"><str name="q">id:SP2514N</str></lst></lst><result name="response" numFound="1" start="0" maxScore="3.1972246"><doc><str name="id">SP2514N</str><arr name="name"><str>Samsung SpinPoint P120 SP2514N - hard drive - 250 GB - ATA-133</str></arr><arr name="manu"><str>Samsung Electronics Co. Ltd.</str></arr><str name="manu_id_s">samsung</str><arr name="cat"><str>electronics</str><str>hard drive</str></arr><arr name="features"><str>7200RPM, 8MB cache, IDE Ultra ATA-133</str><str>NoiseGuard, SilentSeek technology, Fluid Dynamic Bearing (FDB) motor</str></arr><arr name="price"><double>92.0</double></arr><arr name="popularity"><long>6</long></arr><arr name="inStock"><bool>true</bool></arr><date name="manufacturedate_dt">2006-02-13T15:26:37Z</date><arr name="store"><str>35.0752,-97.032</str></arr><long name="_version_">1529013694913052672</long></doc></result></response>`<p>
 
